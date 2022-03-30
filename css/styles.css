@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+h1 {
+    margin: 30px 0;
+    text-align: center;
+}
+
+p {
+    clear: right;
+    font-weight: 900;
+    padding: 20px;
+}
+
+section {
+    border: 2px solid #000;
+    background-color: gray;
+    width: 30%;
+    margin: 30px;
+}
+
+.label  {
+    border: 2px solid #000;
+    text-align: center;
+    width: 45%;
+    float: right;
+}
+
+.chicken    {
+    background-color: rgb(211, 122, 166);
+}
+
+.beef    {
+    background-color: rgb(184, 50, 50);
+}
+
+.sushi {
+    background-color: rgb(206, 199, 137);
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+    }
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 74.99%;
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }
