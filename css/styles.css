@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Comic Neue', sans-serif;
 }
 
 h1 {
@@ -17,28 +17,29 @@ h1 {
 
 p {
     font-weight: 900;
-    padding: 20px;
+    padding: 50px 20px 20px 20px;
     
 }
 
-.row {
-  width: 100%;
+section {
+  padding: 25px;
 }
 
 .card {
     border: 2px solid #000;
-    background-color: gray;
-    width: 90%;
-    margin: 30px auto;
+    background-color: rgb(153, 153, 153);
+    width: 100%;
+    position: relative;
 }
 
 
 .label  {
     border: 2px solid #000;
     text-align: center;
-    width: 45%;
-    position: relative;
-    left: 55%;
+    width: 130px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
 }
 
 .chicken    {
@@ -58,8 +59,8 @@ p {
   {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
-      margin: 3.5%;
     }
+    
     .col-lg-1 {
       width: 8.33%;
     }
@@ -121,7 +122,6 @@ p {
     }
     .col-md-5 {
       width: 41.66%;
-      margin: 20px;
     }
     .col-md-6 {
       width: 50%;
@@ -139,16 +139,10 @@ p {
       width: 83.33%;
     }
     .col-md-11 {
-      width: 88.5%;
-      margin: 20px;
+      width: 91.67%;
     }
 
-    section:last-child .label  {
-      width: 22%;
-      position: relative;
-      left: 78%;
-  }
-    .col-md-12 {
+   .col-md-12 {
       width: 100%;
     }
   }
