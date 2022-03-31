@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,23 +16,29 @@ h1 {
 }
 
 p {
-    clear: right;
     font-weight: 900;
     padding: 20px;
+    
 }
 
-section {
+.row {
+  width: 100%;
+}
+
+.card {
     border: 2px solid #000;
     background-color: gray;
-    width: 30%;
-    margin: 30px;
+    width: 90%;
+    margin: 30px auto;
 }
+
 
 .label  {
     border: 2px solid #000;
     text-align: center;
     width: 45%;
-    float: right;
+    position: relative;
+    left: 55%;
 }
 
 .chicken    {
@@ -45,16 +52,13 @@ section {
 .sushi {
     background-color: rgb(206, 199, 137);
 }
-
-/* Simple Responsive Framework. */
-.row {
-    width: 100%;
-  }
   
   /********** Large devices only **********/
-  @media (min-width: 992px) {
+  @media (min-width: 992px) 
+  {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
+      margin: 3.5%;
     }
     .col-lg-1 {
       width: 8.33%;
@@ -64,7 +68,8 @@ section {
     }
     .col-lg-3 {
       width: 25%;
-    }
+      }
+
     .col-lg-4 {
       width: 33.33%;
     }
@@ -88,6 +93,7 @@ section {
     }
     .col-lg-11 {
       width: 91.66%;
+      
     }
     .col-lg-12 {
       width: 100%;
@@ -95,7 +101,9 @@ section {
   }
   
   /********** Medium devices only **********/
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991px) 
+  
+  {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
       float: left;
     }
@@ -113,6 +121,7 @@ section {
     }
     .col-md-5 {
       width: 41.66%;
+      margin: 20px;
     }
     .col-md-6 {
       width: 50%;
@@ -130,9 +139,18 @@ section {
       width: 83.33%;
     }
     .col-md-11 {
-      width: 91.66%;
+      width: 88.5%;
+      margin: 20px;
     }
+
+    section:last-child .label  {
+      width: 22%;
+      position: relative;
+      left: 78%;
+  }
     .col-md-12 {
       width: 100%;
     }
   }
+
+  
